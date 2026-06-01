@@ -19,7 +19,8 @@ const multiply = function(array) {
 
 };
 
-const power = function() {
+const power = function(b, e) {
+  return b ** e;
 	
 };
 
