@@ -13,7 +13,9 @@ const sum = function(array) {
   0);
 };
 
-const multiply = function() {
+const multiply = function(array) {
+  return array.reduce((total, currentNumber) => total * currentNumber,
+  1);
 
 };
 
